@@ -1,0 +1,47 @@
+/*body, html {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f2f5f2;
+}*/
+
+.gallery-section {
+    padding: 50px 20px;
+    text-align: center;
+    max-width: 900px; /* Set the maximum width for the gallery section */
+    margin: 0 auto;
+
+}
+
+.gallery-section h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 40px;
+    letter-spacing: 1px;
+}
+
+/* Slick carousel custom styling */
+.slick-slide img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover; /* Ensures images maintain aspect ratio */
+}
+
+.slick-slider {
+    position: relative;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.slick-slide {
+    padding: 0 10px; /* Adds some spacing between the slides */
+}
+
+.slick-prev, .slick-next {
+    z-index: 1;
+    color: black; /* Customize the arrows color if needed */
+}
+
+.slick-prev::before, .slick-next::before {
+    color: black; /* Customize the arrows' before pseudo-element */
+}
+

@@ -1,0 +1,82 @@
+.homesec {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-content: center;
+    height: 100vh;
+    margin: 5% 0 5% 0;
+}
+.homesec .about{
+    position: relative;
+    padding: 10px 10px; /* Adjust padding for top/bottom and left/right */
+
+}
+.about h3 {
+    font-family: 'Montserrat', serif;
+    font-weight: inherit;/* Elegant serif font for subheading */
+    font-size: 24px; /* Slightly smaller font size */
+    color: #333333;
+    letter-spacing: 1px/* Lighter gray color */
+
+}
+.about p {
+    font-family: 'Playfair Display', serif; /* Elegant serif font */
+    font-size: 14px;
+    font-style: italic; /* Italicized text */
+    line-height: 1.8; /* Line spacing for readability */
+    max-width: 800px; /* Constrain the width of the text */
+    margin: 0 auto; /* Center the paragraph */
+    color: #555555; /* Slightly lighter text color */
+
+
+}
+.parallax-container{
+    overflow: hidden;
+    align-content: center;
+}
+.paralaxImage {
+    width: auto;
+    height: 702px;
+    left: 0px;
+    top: 0px;
+    will-change: transform;
+    transform: translate3d(0px, 71.6px, 0px)
+}
+.paralaxImage img{
+    width: 980px;
+    height: 702px;
+    object-fit: cover;
+    object-position: center;
+}
+.homesec div {
+    text-align: center;
+}
+.homesec h1 {
+    font-family: 'Montserrat', sans-serif; /* Clean, modern sans-serif font */
+    font-size: 50px; /* Large font size */
+    font-weight: 300; /* Light font weight */
+    letter-spacing: 2px; /* Adds space between the letters */
+    margin: 0;
+    color: #333333; /* Dark text color */
+}
+
+.homesec h2 {
+    font-family: 'Playfair Display', serif; /* Elegant serif font for subheading */
+    font-size: 24px; /* Slightly smaller font size */
+    font-style: italic; /* Italic style for elegance */
+    color: #555555; /* Lighter gray color */
+    margin: 10px 0 0 0;
+    position: relative;
+}
+
+
+.homesec h2:before, .homesec h2:after {
+    content: "";
+    display: inline-block;
+    width: 60px; /* Length of the horizontal lines */
+    height: 1px;
+    background-color: #555555; /* Same color as the text */
+    vertical-align: middle;
+    margin: 0 10px; /* Space between the lines and text */
+}
+
