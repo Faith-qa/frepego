@@ -25,7 +25,20 @@ ul {
     padding: 10px;
     gap: 80px;
 }
+.hello{
+    color: #f4f4f4;
+    text-align: center;
+    padding: 14px 16px;
+    font-family: Arial sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+    text-decoration: none; /* Removes the underline from the text */
 
+}
+.hello:hover{
+    color: #d0d0d0;
+
+}
 li a {
     color: #f4f4f4;
     text-align: center;

@@ -1,5 +1,5 @@
 import './home.css'
-import entrance from './Assets/entrance.JPG'
+import entrance2 from './Assets/entancee.jpg'
 
 const Home = () => {
     return(
@@ -12,7 +12,7 @@ const Home = () => {
             <div className="parallax-container">
                 <div className="paralaxImage">
                     <img
-                        src={entrance}
+                        src={entrance2}
                         alt={"entrance"}
                         width={"980"}
                         height={"638"}

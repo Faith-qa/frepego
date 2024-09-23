@@ -11,8 +11,6 @@ const Main =  () =>{
     return(
         <div className="flex-container">
             <div className="main-cont">
-                <Nav/>
-                <Home/>
                 <Accomodation/>
                 <Dining/>
                 <GallerySection/>
